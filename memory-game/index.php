@@ -14,17 +14,22 @@
 </head>
 
 <body>
-	
+<?php
+	$winner = "winner";
+	$restart = "restart";
+	$message = "message";
+	$sharetext = "share";
+?>
 	<div class="dataid"></div>
   <div class="wrap">
 <div class="game"></div>
 	
 	<div class="modal-overlay">
 		<div class="modal">
-			<h2 class="winner">You Rockk!</h2>
-			<button class="restart">Play Again?</button>
-			<p class="message">Developed on <a href="http://codepen.io">CodePen</a> by <a href="http://codepen.io/natewiley">Nate Wiley</a></p>
-			<p class="share-text">Share it?</p>
+			<h2 class="winner"><?php echo $winner; ?></h2>
+			<button class="restart"><?php echo $restart; ?></button>
+			<p class="message"><?php echo $message; ?></p>
+			<p class="share-text"><?php echo $sharetext; ?></p>
 			<ul class="social">
 				<li><a target="_blank" class="twitter" href="http://twitter.com/share?url=http://codepen.io/natewiley/pen/HBrbL"><span class="brandico-twitter-bird"></span></a></li>
 				<li><a target="_blank" class="facebook" href="http://www.facebook.com/sharer.php?u=http://codepen.io/natewiley/pen/HBrbL"><span class="brandico-facebook"></span></a></li>
