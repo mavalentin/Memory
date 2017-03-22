@@ -8,18 +8,20 @@
 
   <link rel='stylesheet prefetch' href='http://fonts.googleapis.com/css?family=Anton'>
 
-      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet " href="css/style.css">
 
   
 </head>
 
 <body>
+	
+	<div class="dataid"></div>
   <div class="wrap">
 <div class="game"></div>
 	
 	<div class="modal-overlay">
 		<div class="modal">
-			<h2 class="winner">You Rock!</h2>
+			<h2 class="winner">You Rockk!</h2>
 			<button class="restart">Play Again?</button>
 			<p class="message">Developed on <a href="http://codepen.io">CodePen</a> by <a href="http://codepen.io/natewiley">Nate Wiley</a></p>
 			<p class="share-text">Share it?</p>
