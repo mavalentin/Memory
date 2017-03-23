@@ -92,6 +92,36 @@ body {
           transform: rotateY(180deg);
 }
 
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+   
+
+	.card .inside.picked, .card .inside.matched {
+	  -webkit-transform: none;
+	  -ms-transform: none;
+	          transform: none;
+	}
+	
+	.card .front {
+	  -webkit-transform: none !important;
+	  -ms-transform: none !important;
+	          transform: none !important;
+	}
+	
+	.back {
+		background: white;
+	}
+	
+	.inside .front {
+		z-index: 0;
+	}
+	.inside.picked .front,
+	.inside.matched .front {
+		z-index: 1;
+	}
+}
+
+
+
 .card .inside {
 	-webkit-backface-visibility: hidden;
 	-ms-backface-visibility: hidden;	
