@@ -17,7 +17,7 @@
 	<div id="dataid"></div>
 <?php
 	$winner = "winner";
-	$restart = "restart";
+	$restart = "continua";
 	$message = "message";
 	$sharetext = "share";
 ?>

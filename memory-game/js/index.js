@@ -83,8 +83,9 @@
 
 		reset: function(){
 			this.hideModal();
-			this.shuffleCards(this.cardsArray);
-			this.setup();
+			//this.shuffleCards(this.cardsArray);
+			//this.setup();
+			this.paused = false;
 			this.$game.show("slow");
 		},
 
