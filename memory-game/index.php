@@ -14,13 +14,14 @@
 </head>
 
 <body>
+	<div id="dataid"></div>
 <?php
 	$winner = "winner";
 	$restart = "restart";
 	$message = "message";
 	$sharetext = "share";
 ?>
-	<div class="dataid"></div>
+	
   <div class="wrap">
 <div class="game"></div>
 	
