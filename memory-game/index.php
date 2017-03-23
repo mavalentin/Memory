@@ -26,8 +26,64 @@
 <div class="game"></div>
 	
 	<div class="modal-overlay">
-		<div class="modal">
-			<h2 class="winner"><?php echo $winner; ?></h2>
+		<div class="modal modal1">
+			<h2 class="winner">1</h2>
+			<button class="restart"><?php echo $restart; ?></button>
+			<p class="message"><?php echo $message; ?></p>
+			<p class="share-text"><?php echo $sharetext; ?></p>
+			<ul class="social">
+				<li><a target="_blank" class="twitter" href="http://twitter.com/share?url=http://codepen.io/natewiley/pen/HBrbL"><span class="brandico-twitter-bird"></span></a></li>
+				<li><a target="_blank" class="facebook" href="http://www.facebook.com/sharer.php?u=http://codepen.io/natewiley/pen/HBrbL"><span class="brandico-facebook"></span></a></li>
+				<li><a target="_blank" class="google" href="https://plus.google.com/share?url=http://codepen.io/natewiley/pen/HBrbL"><span class="brandico-googleplus-rect"></span></a></li>
+			</ul>
+		</div>
+		
+		<div class="modal modal2">
+			<h2 class="winner">2</h2>
+			<button class="restart"><?php echo $restart; ?></button>
+			<p class="message"><?php echo $message; ?></p>
+			<p class="share-text"><?php echo $sharetext; ?></p>
+			<ul class="social">
+				<li><a target="_blank" class="twitter" href="http://twitter.com/share?url=http://codepen.io/natewiley/pen/HBrbL"><span class="brandico-twitter-bird"></span></a></li>
+				<li><a target="_blank" class="facebook" href="http://www.facebook.com/sharer.php?u=http://codepen.io/natewiley/pen/HBrbL"><span class="brandico-facebook"></span></a></li>
+				<li><a target="_blank" class="google" href="https://plus.google.com/share?url=http://codepen.io/natewiley/pen/HBrbL"><span class="brandico-googleplus-rect"></span></a></li>
+			</ul>
+		</div>
+		<div class="modal modal3">
+			<h2 class="winner">3</h2>
+			<button class="restart"><?php echo $restart; ?></button>
+			<p class="message"><?php echo $message; ?></p>
+			<p class="share-text"><?php echo $sharetext; ?></p>
+			<ul class="social">
+				<li><a target="_blank" class="twitter" href="http://twitter.com/share?url=http://codepen.io/natewiley/pen/HBrbL"><span class="brandico-twitter-bird"></span></a></li>
+				<li><a target="_blank" class="facebook" href="http://www.facebook.com/sharer.php?u=http://codepen.io/natewiley/pen/HBrbL"><span class="brandico-facebook"></span></a></li>
+				<li><a target="_blank" class="google" href="https://plus.google.com/share?url=http://codepen.io/natewiley/pen/HBrbL"><span class="brandico-googleplus-rect"></span></a></li>
+			</ul>
+		</div>
+		<div class="modal modal4">
+			<h2 class="winner">4</h2>
+			<button class="restart"><?php echo $restart; ?></button>
+			<p class="message"><?php echo $message; ?></p>
+			<p class="share-text"><?php echo $sharetext; ?></p>
+			<ul class="social">
+				<li><a target="_blank" class="twitter" href="http://twitter.com/share?url=http://codepen.io/natewiley/pen/HBrbL"><span class="brandico-twitter-bird"></span></a></li>
+				<li><a target="_blank" class="facebook" href="http://www.facebook.com/sharer.php?u=http://codepen.io/natewiley/pen/HBrbL"><span class="brandico-facebook"></span></a></li>
+				<li><a target="_blank" class="google" href="https://plus.google.com/share?url=http://codepen.io/natewiley/pen/HBrbL"><span class="brandico-googleplus-rect"></span></a></li>
+			</ul>
+		</div>
+		<div class="modal modal5">
+			<h2 class="winner">5</h2>
+			<button class="restart"><?php echo $restart; ?></button>
+			<p class="message"><?php echo $message; ?></p>
+			<p class="share-text"><?php echo $sharetext; ?></p>
+			<ul class="social">
+				<li><a target="_blank" class="twitter" href="http://twitter.com/share?url=http://codepen.io/natewiley/pen/HBrbL"><span class="brandico-twitter-bird"></span></a></li>
+				<li><a target="_blank" class="facebook" href="http://www.facebook.com/sharer.php?u=http://codepen.io/natewiley/pen/HBrbL"><span class="brandico-facebook"></span></a></li>
+				<li><a target="_blank" class="google" href="https://plus.google.com/share?url=http://codepen.io/natewiley/pen/HBrbL"><span class="brandico-googleplus-rect"></span></a></li>
+			</ul>
+		</div>
+		<div class="modal modal6">
+			<h2 class="winner">6</h2>
 			<button class="restart"><?php echo $restart; ?></button>
 			<p class="message"><?php echo $message; ?></p>
 			<p class="share-text"><?php echo $sharetext; ?></p>
@@ -39,7 +95,7 @@
 		</div>
 	</div>
   <footer>
-		<p class="disclaimer">All logos are property of their respective owners, No Copyright infringement intended.</p>
+		<p class="disclaimer"></p>
 	</footer>
   </div><!-- End Wrap -->
   <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>

@@ -10,7 +10,7 @@
 
 		init: function(cards){
 			this.$game = $(".game");
-			this.$modal = $(".modal");
+			this.$modal = $("");
 			this.$overlay = $(".modal-overlay");
 			this.$restartButton = $("button.restart");
 			this.cardsArray = $.merge(cards, cards);
@@ -46,6 +46,7 @@
 				} else if(_.guess == $(this).attr("data-id") && !$(this).hasClass("picked")){
 					$(".picked").addClass("matched");
 					$("#dataid").addClass($(this).attr("data-id"));
+					_.$modal = $(".modal" + $(this).attr("data-id"));
 					_.win();
 					_.guess = null;
 				} else {
