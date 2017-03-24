@@ -16,11 +16,26 @@
 <body>
 	<div id="dataid"></div>
 <?php
-	$winner = "winner";
 	$restart = "Ripeti il gioco";
 	$continua = "Continua";
-	$message = "message";
-	$sharetext = "share";
+	$message1 = 'inserire codice html messaggio/immagine con link';
+	$message2 = 'inserire codice html messaggio/immagine con link';
+	$message3 = 'inserire codice html messaggio/immagine con link';
+	$message4 = 'inserire codice html messaggio/immagine con link';
+	$message5 = 'inserire codice html messaggio/immagine con link';
+	$message6 = 'inserire codice html messaggio/immagine con link';
+	$messageEND = 'inserire codice html messaggio/immagine con link';
+	$titolo1 = 'Titolo1';
+	$titolo2 = 'Titolo2';
+	$titolo3 = 'Titolo3';
+	$titolo4 = 'Titolo4';
+	$titolo5 = 'Titolo5';
+	$titolo6 = 'Titolo6';
+	$titoloEND = 'TitoloEND';
+	$sharetext = "Condividi";
+	$twitterurl = "http://twitter";
+	$fburl = "http://fb";
+	$googleurl = "http://google";
 ?>
 	
   <div class="wrap">
@@ -28,81 +43,81 @@
 	
 	<div class="modal-overlay">
 		<div class="modal modal1">
-			<h2 class="winner">1</h2>
+			<h2 class="winner"><?php echo $titolo1; ?></h2>
 			<button class="continua"><?php echo $continua; ?></button>
-			<p class="message"><?php echo $message; ?></p>
+			<p class="message"><?php echo $message1; ?></p>
 			<p class="share-text"><?php echo $sharetext; ?></p>
 			<ul class="social">
-				<li><a target="_blank" class="twitter" href="http://twitter.com/share?url=http://codepen.io/natewiley/pen/HBrbL"><span class="brandico-twitter-bird"></span></a></li>
-				<li><a target="_blank" class="facebook" href="http://www.facebook.com/sharer.php?u=http://codepen.io/natewiley/pen/HBrbL"><span class="brandico-facebook"></span></a></li>
-				<li><a target="_blank" class="google" href="https://plus.google.com/share?url=http://codepen.io/natewiley/pen/HBrbL"><span class="brandico-googleplus-rect"></span></a></li>
+				<li><a target="_blank" class="twitter" href="<?php echo $twitterurl; ?>"><span class="brandico-twitter-bird"></span></a></li>
+				<li><a target="_blank" class="facebook" href="<?php echo $fburl; ?>"><span class="brandico-facebook"></span></a></li>
+				<li><a target="_blank" class="google" href="<?php echo $googleurl; ?>"><span class="brandico-googleplus-rect"></span></a></li>
 			</ul>
 		</div>
 		
 		<div class="modal modal2">
-			<h2 class="winner">2</h2>
+			<h2 class="winner"><?php echo $titolo2; ?></h2>
 			<button class="continua"><?php echo $continua; ?></button>
-			<p class="message"><?php echo $message; ?></p>
+			<p class="message"><?php echo $message2; ?></p>
 			<p class="share-text"><?php echo $sharetext; ?></p>
 			<ul class="social">
-				<li><a target="_blank" class="twitter" href="http://twitter.com/share?url=http://codepen.io/natewiley/pen/HBrbL"><span class="brandico-twitter-bird"></span></a></li>
-				<li><a target="_blank" class="facebook" href="http://www.facebook.com/sharer.php?u=http://codepen.io/natewiley/pen/HBrbL"><span class="brandico-facebook"></span></a></li>
-				<li><a target="_blank" class="google" href="https://plus.google.com/share?url=http://codepen.io/natewiley/pen/HBrbL"><span class="brandico-googleplus-rect"></span></a></li>
+				<li><a target="_blank" class="twitter" href="<?php echo $twitterurl; ?>"><span class="brandico-twitter-bird"></span></a></li>
+				<li><a target="_blank" class="facebook" href="<?php echo $fburl; ?>"><span class="brandico-facebook"></span></a></li>
+				<li><a target="_blank" class="google" href="<?php echo $googleurl; ?>"><span class="brandico-googleplus-rect"></span></a></li>
 			</ul>
 		</div>
 		<div class="modal modal3">
-			<h2 class="winner">3</h2>
+			<h2 class="winner"><?php echo $titolo3; ?></h2>
 			<button class="continua"><?php echo $continua; ?></button>
-			<p class="message"><?php echo $message; ?></p>
+			<p class="message"><?php echo $message3; ?></p>
 			<p class="share-text"><?php echo $sharetext; ?></p>
 			<ul class="social">
-				<li><a target="_blank" class="twitter" href="http://twitter.com/share?url=http://codepen.io/natewiley/pen/HBrbL"><span class="brandico-twitter-bird"></span></a></li>
-				<li><a target="_blank" class="facebook" href="http://www.facebook.com/sharer.php?u=http://codepen.io/natewiley/pen/HBrbL"><span class="brandico-facebook"></span></a></li>
-				<li><a target="_blank" class="google" href="https://plus.google.com/share?url=http://codepen.io/natewiley/pen/HBrbL"><span class="brandico-googleplus-rect"></span></a></li>
+				<li><a target="_blank" class="twitter" href="<?php echo $twitterurl; ?>"><span class="brandico-twitter-bird"></span></a></li>
+				<li><a target="_blank" class="facebook" href="<?php echo $fburl; ?>"><span class="brandico-facebook"></span></a></li>
+				<li><a target="_blank" class="google" href="<?php echo $googleurl; ?>"><span class="brandico-googleplus-rect"></span></a></li>
 			</ul>
 		</div>
 		<div class="modal modal4">
-			<h2 class="winner">4</h2>
+			<h2 class="winner"><?php echo $titolo4; ?></h2>
 			<button class="continua"><?php echo $continua; ?></button>
-			<p class="message"><?php echo $message; ?></p>
+			<p class="message"><?php echo $message4; ?></p>
 			<p class="share-text"><?php echo $sharetext; ?></p>
 			<ul class="social">
-				<li><a target="_blank" class="twitter" href="http://twitter.com/share?url=http://codepen.io/natewiley/pen/HBrbL"><span class="brandico-twitter-bird"></span></a></li>
-				<li><a target="_blank" class="facebook" href="http://www.facebook.com/sharer.php?u=http://codepen.io/natewiley/pen/HBrbL"><span class="brandico-facebook"></span></a></li>
-				<li><a target="_blank" class="google" href="https://plus.google.com/share?url=http://codepen.io/natewiley/pen/HBrbL"><span class="brandico-googleplus-rect"></span></a></li>
+				<li><a target="_blank" class="twitter" href="<?php echo $twitterurl; ?>"><span class="brandico-twitter-bird"></span></a></li>
+				<li><a target="_blank" class="facebook" href="<?php echo $fburl; ?>"><span class="brandico-facebook"></span></a></li>
+				<li><a target="_blank" class="google" href="<?php echo $googleurl; ?>"><span class="brandico-googleplus-rect"></span></a></li>
 			</ul>
 		</div>
 		<div class="modal modal5">
-			<h2 class="winner">5</h2>
+			<h2 class="winner"><?php echo $titolo5; ?></h2>
 			<button class="continua"><?php echo $continua; ?></button>
-			<p class="message"><?php echo $message; ?></p>
+			<p class="message"><?php echo $message5; ?></p>
 			<p class="share-text"><?php echo $sharetext; ?></p>
 			<ul class="social">
-				<li><a target="_blank" class="twitter" href="http://twitter.com/share?url=http://codepen.io/natewiley/pen/HBrbL"><span class="brandico-twitter-bird"></span></a></li>
-				<li><a target="_blank" class="facebook" href="http://www.facebook.com/sharer.php?u=http://codepen.io/natewiley/pen/HBrbL"><span class="brandico-facebook"></span></a></li>
-				<li><a target="_blank" class="google" href="https://plus.google.com/share?url=http://codepen.io/natewiley/pen/HBrbL"><span class="brandico-googleplus-rect"></span></a></li>
+				<li><a target="_blank" class="twitter" href="<?php echo $twitterurl; ?>"><span class="brandico-twitter-bird"></span></a></li>
+				<li><a target="_blank" class="facebook" href="<?php echo $fburl; ?>"><span class="brandico-facebook"></span></a></li>
+				<li><a target="_blank" class="google" href="<?php echo $googleurl; ?>"><span class="brandico-googleplus-rect"></span></a></li>
 			</ul>
 		</div>
 		<div class="modal modal6">
-			<h2 class="winner">6</h2>
+			<h2 class="winner"><?php echo $titolo6; ?></h2>
 			<button class="continua"><?php echo $continua; ?></button>
-			<p class="message"><?php echo $message; ?></p>
+			<p class="message"><?php echo $message6; ?></p>
 			<p class="share-text"><?php echo $sharetext; ?></p>
 			<ul class="social">
-				<li><a target="_blank" class="twitter" href="http://twitter.com/share?url=http://codepen.io/natewiley/pen/HBrbL"><span class="brandico-twitter-bird"></span></a></li>
-				<li><a target="_blank" class="facebook" href="http://www.facebook.com/sharer.php?u=http://codepen.io/natewiley/pen/HBrbL"><span class="brandico-facebook"></span></a></li>
-				<li><a target="_blank" class="google" href="https://plus.google.com/share?url=http://codepen.io/natewiley/pen/HBrbL"><span class="brandico-googleplus-rect"></span></a></li>
+				<li><a target="_blank" class="twitter" href="<?php echo $twitterurl; ?>"><span class="brandico-twitter-bird"></span></a></li>
+				<li><a target="_blank" class="facebook" href="<?php echo $fburl; ?>"><span class="brandico-facebook"></span></a></li>
+				<li><a target="_blank" class="google" href="<?php echo $googleurl; ?>"><span class="brandico-googleplus-rect"></span></a></li>
 			</ul>
 		</div>
 		<div class="modal modalEND">
-			<h2 class="winner">END</h2>
+			<h2 class="winner"><?php echo $titoloEND; ?></h2>
 			<button class="restart"><?php echo $restart; ?></button>
-			<p class="message"><?php echo $message; ?></p>
+			<p class="message"><?php echo $messageEND; ?></p>
 			<p class="share-text"><?php echo $sharetext; ?></p>
 			<ul class="social">
-				<li><a target="_blank" class="twitter" href="http://twitter.com/share?url=http://codepen.io/natewiley/pen/HBrbL"><span class="brandico-twitter-bird"></span></a></li>
-				<li><a target="_blank" class="facebook" href="http://www.facebook.com/sharer.php?u=http://codepen.io/natewiley/pen/HBrbL"><span class="brandico-facebook"></span></a></li>
-				<li><a target="_blank" class="google" href="https://plus.google.com/share?url=http://codepen.io/natewiley/pen/HBrbL"><span class="brandico-googleplus-rect"></span></a></li>
+				<li><a target="_blank" class="twitter" href="<?php echo $twitterurl; ?>"><span class="brandico-twitter-bird"></span></a></li>
+				<li><a target="_blank" class="facebook" href="<?php echo $fburl; ?>"><span class="brandico-facebook"></span></a></li>
+				<li><a target="_blank" class="google" href="<?php echo $googleurl; ?>"><span class="brandico-googleplus-rect"></span></a></li>
 			</ul>
 		</div>
 	</div>

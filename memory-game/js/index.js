@@ -4,6 +4,8 @@
 // best in full screen, works on phones/tablets (min height for game is 500px..) enjoy ;)
 // Follow me on Codepen
 
+//Inserire icone a fine pagina
+
 (function(){
 	
 	var Memory = {
