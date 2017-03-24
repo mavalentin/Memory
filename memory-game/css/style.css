@@ -217,7 +217,8 @@ body {
     font-size: 60px;
   }
 }
-.modal .restart {
+.modal .restart,
+.modal .continua {
   font-family: "Anton", sans-serif;
   margin: 30px auto;
   padding: 20px 30px;
@@ -233,7 +234,8 @@ body {
   text-shadow: 0px 1px 0 black;
   cursor: pointer;
 }
-.modal .restart:hover {
+.modal .restart:hover,
+.modal .continua:hover {
   background: -webkit-linear-gradient(#222, black);
   background: linear-gradient(#222, black);
 }

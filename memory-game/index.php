@@ -17,7 +17,8 @@
 	<div id="dataid"></div>
 <?php
 	$winner = "winner";
-	$restart = "continua";
+	$restart = "Ripeti il gioco";
+	$continua = "Continua";
 	$message = "message";
 	$sharetext = "share";
 ?>
@@ -28,7 +29,7 @@
 	<div class="modal-overlay">
 		<div class="modal modal1">
 			<h2 class="winner">1</h2>
-			<button class="restart"><?php echo $restart; ?></button>
+			<button class="continua"><?php echo $continua; ?></button>
 			<p class="message"><?php echo $message; ?></p>
 			<p class="share-text"><?php echo $sharetext; ?></p>
 			<ul class="social">
@@ -40,7 +41,7 @@
 		
 		<div class="modal modal2">
 			<h2 class="winner">2</h2>
-			<button class="restart"><?php echo $restart; ?></button>
+			<button class="continua"><?php echo $continua; ?></button>
 			<p class="message"><?php echo $message; ?></p>
 			<p class="share-text"><?php echo $sharetext; ?></p>
 			<ul class="social">
@@ -51,7 +52,7 @@
 		</div>
 		<div class="modal modal3">
 			<h2 class="winner">3</h2>
-			<button class="restart"><?php echo $restart; ?></button>
+			<button class="continua"><?php echo $continua; ?></button>
 			<p class="message"><?php echo $message; ?></p>
 			<p class="share-text"><?php echo $sharetext; ?></p>
 			<ul class="social">
@@ -62,7 +63,7 @@
 		</div>
 		<div class="modal modal4">
 			<h2 class="winner">4</h2>
-			<button class="restart"><?php echo $restart; ?></button>
+			<button class="continua"><?php echo $continua; ?></button>
 			<p class="message"><?php echo $message; ?></p>
 			<p class="share-text"><?php echo $sharetext; ?></p>
 			<ul class="social">
@@ -73,7 +74,7 @@
 		</div>
 		<div class="modal modal5">
 			<h2 class="winner">5</h2>
-			<button class="restart"><?php echo $restart; ?></button>
+			<button class="continua"><?php echo $continua; ?></button>
 			<p class="message"><?php echo $message; ?></p>
 			<p class="share-text"><?php echo $sharetext; ?></p>
 			<ul class="social">
@@ -84,6 +85,17 @@
 		</div>
 		<div class="modal modal6">
 			<h2 class="winner">6</h2>
+			<button class="continua"><?php echo $continua; ?></button>
+			<p class="message"><?php echo $message; ?></p>
+			<p class="share-text"><?php echo $sharetext; ?></p>
+			<ul class="social">
+				<li><a target="_blank" class="twitter" href="http://twitter.com/share?url=http://codepen.io/natewiley/pen/HBrbL"><span class="brandico-twitter-bird"></span></a></li>
+				<li><a target="_blank" class="facebook" href="http://www.facebook.com/sharer.php?u=http://codepen.io/natewiley/pen/HBrbL"><span class="brandico-facebook"></span></a></li>
+				<li><a target="_blank" class="google" href="https://plus.google.com/share?url=http://codepen.io/natewiley/pen/HBrbL"><span class="brandico-googleplus-rect"></span></a></li>
+			</ul>
+		</div>
+		<div class="modal modalEND">
+			<h2 class="winner">END</h2>
 			<button class="restart"><?php echo $restart; ?></button>
 			<p class="message"><?php echo $message; ?></p>
 			<p class="share-text"><?php echo $sharetext; ?></p>

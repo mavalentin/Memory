@@ -12,6 +12,7 @@
 			this.$game = $(".game");
 			this.$modal = $("");
 			this.$overlay = $(".modal-overlay");
+			this.$continuaButton = $("button.continua");
 			this.$restartButton = $("button.restart");
 			this.cardsArray = $.merge(cards, cards);
 			this.shuffleCards(this.cardsArray);
@@ -33,7 +34,8 @@
 
 		binding: function(){
 			this.$memoryCards.on("click", this.cardClicked);
-			this.$restartButton.on("click", $.proxy(this.reset, this));
+			this.$continuaButton.on("click", $.proxy(this.continua, this));
+			this.$restartButton.on("click", $.proxy(this.restart, this));
 		},
 		// kinda messy but hey
 		cardClicked: function(){
@@ -46,8 +48,10 @@
 				} else if(_.guess == $(this).attr("data-id") && !$(this).hasClass("picked")){
 					$(".picked").addClass("matched");
 					$("#dataid").addClass($(this).attr("data-id"));
-					_.$modal = $(".modal" + $(this).attr("data-id"));
-					_.win();
+					if($(".matched").length != $(".card").length){
+						_.$modal = $(".modal" + $(this).attr("data-id"));
+						_.win();
+					}
 					_.guess = null;
 				} else {
 					_.guess = null;
@@ -58,6 +62,7 @@
 					}, 600);
 				}
 				if($(".matched").length == $(".card").length){
+					_.$modal = $(".modalEND");
 					_.win();
 				}
 			}
@@ -81,10 +86,18 @@
 			this.$modal.hide();
 		},
 
-		reset: function(){
+		continua: function(){
 			this.hideModal();
 			//this.shuffleCards(this.cardsArray);
 			//this.setup();
+			this.paused = false;
+			this.$game.show("slow");
+		},
+		
+		restart: function(){
+			this.hideModal();
+			this.shuffleCards(this.cardsArray);
+			this.setup();
 			this.paused = false;
 			this.$game.show("slow");
 		},
